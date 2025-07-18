@@ -1,0 +1,51 @@
+.electrician {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding-bottom: 40px;
+}
+.electrician-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+.electrician-item {
+  width: 260px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.electrician-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.1);
+}
+
+.electrician-item h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.electrician-item p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 18px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1d4ed8;
+}

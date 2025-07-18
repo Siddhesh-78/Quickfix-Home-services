@@ -1,0 +1,66 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+.fotter {
+  width: 100%;
+   background: linear-gradient(to right, #1f2937, #111827);
+  color: #f9fafb;
+  padding: 40px 20px;
+}
+
+.fotter-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.fotter-item1,
+.fotter-item2 {
+  flex: 1 1 300px;
+}
+
+.fotter-item1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.fotter-item1 a {
+  color: #f9fafb;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.fotter-item1 a:hover {
+  color: #3b82f6;
+}
+
+.fotter-item2 p {
+  font-size: 15px;
+  color: #d1d5db;
+}
+
+@media (max-width: 768px) {
+  .fotter-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

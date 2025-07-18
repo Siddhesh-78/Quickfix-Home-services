@@ -1,0 +1,71 @@
+.services {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  overflow-x: auto;
+  padding: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #2563eb #e0e0e0;
+}
+
+.category-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.category-container::-webkit-scrollbar-thumb {
+  background-color: #2563eb;
+  border-radius: 10px;
+}
+
+.category-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.category-item {
+  flex: 0 0 280px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.category-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.1);
+}
+
+.category-item p {
+  margin: 10px 0;
+  color: dimgray;
+}
+
+.category-item h2 {
+  font-size: 1.25rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.category-item button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.category-item button:hover {
+  background-color: #1d4ed8;
+}
